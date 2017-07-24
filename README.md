@@ -18,4 +18,5 @@
 - Bootstrap -> formatting
 
 ## Refactor TODOs
+- Add full name method for users
 - Refactor user association integration test in post_spec
