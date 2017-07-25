@@ -17,7 +17,7 @@
 ## UI:
 - X Bootstrap -> formatting
 - Font Awesome icons
-- Update styles for forms
+- X Update styles for forms
 
 ## Refactor TODOs
 - X Add full name method for users
