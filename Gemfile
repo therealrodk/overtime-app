@@ -36,3 +36,4 @@ gem "gritter", "1.2.0"
 gem 'administrate', '~> 0.8.1'
 gem 'bourbon', '~> 4.3', '>= 4.3.4'
 gem 'rails-helper', '~> 0.1.0'
+gem 'pundit', '~> 1.1'
