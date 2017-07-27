@@ -24,3 +24,4 @@
 - X Add full name method for users
 - Refactor user association integration test in post_spec
 - Refactor posts/_form for admin user with status
+- Fix post_spec.rb:82 to use factories
