@@ -6,6 +6,7 @@
 - X Post -> date:date rationale:text
 - X User -> Devise
 - X AdminUser -> STI
+- Audit log
 
 ## Features:
 - Approval Workflow
@@ -17,9 +18,8 @@
 
 ## UI:
 - X Bootstrap -> formatting
-- Font Awesome icons
+- X Glyphicons
 - X Update styles for forms
 
 ## Refactor TODOs
-- Refactor user association integration test in post_spec
-- Refactor posts/_form for admin user with status
+- X Refactor posts/_form for admin user with status
