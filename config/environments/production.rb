@@ -13,22 +13,16 @@ Rails.application.configure do
   config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
 
   config.assets.js_compressor = :uglifier
-
   config.assets.compile = true
-
   config.assets.digest = true
 
   config.log_level = :debug
-
   config.log_tags = [ :request_id ]
-
-  config.action_mailer.perform_caching = false
+  config.log_formatter = ::Logger::Formatter.new
 
   config.i18n.fallbacks = true
 
   config.active_support.deprecation = :notify
-
-  config.log_formatter = ::Logger::Formatter.new
 
   if ENV["RAILS_LOG_TO_STDOUT"].present?
     logger           = ActiveSupport::Logger.new(STDOUT)
@@ -39,4 +33,7 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   config.serve_static_assets = true
+
+  config.action_mailer.perform_caching = false
+  config.action_mailer.default_url_options = { :host => 'rk-overime.herokuapp.com' }
 end
