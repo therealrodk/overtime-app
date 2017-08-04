@@ -17,10 +17,13 @@
 - X Needs to be documented if employee did not log overtime
 - Create audit log for each text msg
 - Need to update end_date when confirmed
-
-## UI:
-- X Bootstrap -> formatting
-- X Glyphicons
-- X Update styles for forms
+- Need to update audit log status when an overtime item is rejected
+- Update buttons on employee homepage so they show in mobile
+- Update buttons to include timespan
+- Update button sort order on employee homepage
+- Remove unnecessary navbar buttons for managers
+- Fix admin dashboard bug
+- Implement honeybadger error reporting
+- Implement new relic for keeping site alive
 
 ## TODOs
