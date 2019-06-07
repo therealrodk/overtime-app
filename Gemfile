@@ -30,7 +30,7 @@ group :development do
 end
 
 gem 'devise', '~> 4.6', '>= 4.6.0'
-gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+gem 'bootstrap-sass', '~> 3.4'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem "gritter", "1.2.0"
 gem 'administrate', '~> 0.8.1'
