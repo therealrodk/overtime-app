@@ -34,7 +34,7 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem "gritter", "1.2.0"
 gem 'administrate', '~> 0.8.1'
-gem 'bourbon', '~> 4.3', '>= 4.3.4'
+gem 'bourbon', '~> 6.0'
 gem 'rails-helper', '~> 0.1.0'
 gem 'pundit', '~> 1.1'
 gem 'twilio-ruby', '~> 4.11', '>= 4.11.1'
