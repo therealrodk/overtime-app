@@ -29,7 +29,7 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.1'
 end
 
-gem 'devise', '~> 4.6', '>= 4.6.0'
+gem 'devise', '~> 4.7', '>= 4.7.1'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem "gritter", "1.2.0"
