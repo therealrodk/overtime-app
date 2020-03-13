@@ -33,7 +33,7 @@ gem 'devise', '~> 4.6', '>= 4.6.0'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem "gritter", "1.2.0"
-gem 'administrate', '~> 0.8.1'
+gem 'administrate', '~> 0.13.0'
 gem 'bourbon', '~> 4.3', '>= 4.3.4'
 gem 'rails-helper', '~> 0.1.0'
 gem 'pundit', '~> 1.1'
